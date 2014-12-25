@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyMarks</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="IntroducirUsuario">Introduce el usuario</string>
+    <string name="Contraseña">Introduce la contraseña</string>
+    <string name="btInicioSesión">Iniciar Sesión</string>
+    <string name="title_activity_pantalla_principal">PaginaPrincipal</string>
+    <string name="title_activity_escribir_notas">EscribirNotas</string>
+    <string name="title_activity_hacer_media">HacerMedia</string>
+    <string name="ElegirAcción">Introduzca una acción:</string>
+    <string name="IntroducirNotas">Introducir Notas</string>
+    <string name="HacerMedia">Hacer Media</string>
+
+</resources>
