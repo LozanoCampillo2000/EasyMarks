@@ -3,10 +3,11 @@
     package="com.david.easymarks" >
 
     <application
+        android:debuggable="false"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.Holo" >
+        android:theme="@android:style/Theme.Material" >
         <activity
             android:name="com.david.easymarks.MainActivity"
             android:label="@string/app_name" >
