@@ -17,8 +17,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        EditText etUsuario = (EditText) findViewById(R.id.etUsuario);
-        EditText etContraseña = (EditText) findViewById(R.id.etContraseña);
+        final EditText etUsuario = (EditText) findViewById(R.id.etUsuario);
+        final EditText etContraseña = (EditText) findViewById(R.id.etContraseña);
 
         final Editable usuario = etUsuario.getText();
         final Editable contraseña = etContraseña.getText();
@@ -34,6 +34,8 @@ public class MainActivity extends Activity {
 
                     Toast.makeText(getBaseContext(), "Inicio de sesión con éxito", Toast.LENGTH_SHORT).show();
                 } else {
+                    etUsuario.setText("");
+                    etContraseña.setText("");
                     Toast.makeText(getBaseContext(), "Inicio de sesión fallido", Toast.LENGTH_SHORT).show();
                 }
             }

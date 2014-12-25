@@ -21,9 +21,9 @@
         android:layout_height="wrap_content"
         android:text="@string/IntroducirNotas"
         android:id="@+id/btIntroducirNotas"
+        android:layout_marginTop="45dp"
         android:layout_below="@+id/tvElegirAccion"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
