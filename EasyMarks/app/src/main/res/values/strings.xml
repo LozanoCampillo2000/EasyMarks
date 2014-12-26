@@ -2,15 +2,22 @@
 <resources>
 
     <string name="app_name">EasyMarks</string>
-    <string name="action_settings">Action Settings</string>
-    <string name="IntroducirUsuario">Introduce el usuario</string>
-    <string name="Contraseña">Introduce la contraseña</string>
+    <string name="title_activity_pantalla_principal">Pantalla Principal</string>
+    <string name="title_activity_editar_notas">Editar Notas</string>
+    <string name="title_activity_hacer_media">Hacer Media</string>
+    <string name="title_activity_introducir_nota">Introducir Nota</string>
+    <string name="title_activity_borrar_nota">Borrar Nota</string>
+    <string name="title_activity_borrar_todas_notas">Borrar Todas Notas</string>
+    <string name="title_activity_ver_notas">Ver Notas</string>
+    <string name="tvIntroducirUsuario">Introduce el usuario</string>
+    <string name="tvContraseña">Introduce la contraseña</string>
+    <string name="tvElegirAcción">Introduzca una acción:</string>
     <string name="btInicioSesión">Iniciar Sesión</string>
-    <string name="title_activity_pantalla_principal">PaginaPrincipal</string>
-    <string name="title_activity_escribir_notas">EscribirNotas</string>
-    <string name="title_activity_hacer_media">HacerMedia</string>
-    <string name="ElegirAcción">Introduzca una acción:</string>
-    <string name="IntroducirNotas">Introducir Notas</string>
-    <string name="HacerMedia">Hacer Media</string>
+    <string name="btEditarNotas">Editar Notas</string>
+    <string name="btHacerMedia">Hacer Media</string>
+    <string name="btIntroducirNota">Introducir Nota</string>
+    <string name="btBorrarNota">Borrar Nota</string>
+    <string name="btBorrarTodasNotas">Borrar Todas Notas</string>
+    <string name="btVerNotas">Ver Notas</string>
 
 </resources>

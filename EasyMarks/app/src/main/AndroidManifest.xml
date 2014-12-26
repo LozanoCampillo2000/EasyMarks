@@ -3,13 +3,13 @@
     package="com.david.easymarks" >
 
     <application
-        android:debuggable="false"
         android:allowBackup="true"
+        android:debuggable="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Material" >
         <activity
-            android:name="com.david.easymarks.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,16 +18,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.david.easymarks.PantallaPrincipal"
+            android:name=".PantallaPrincipal"
             android:label="@string/title_activity_pantalla_principal" >
         </activity>
         <activity
-            android:name="com.david.easymarks.IntroducirNotas"
-            android:label="@string/title_activity_escribir_notas" >
+            android:name=".EditarNotas"
+            android:label="@string/title_activity_editar_notas" >
         </activity>
         <activity
-            android:name="com.david.easymarks.HacerMedia"
+            android:name=".HacerMedia"
             android:label="@string/title_activity_hacer_media" >
+        </activity>
+        <activity
+            android:name=".IntroducirNota"
+            android:label="@string/title_activity_introducir_nota" >
+        </activity>
+        <activity
+            android:name=".BorrarNota"
+            android:label="@string/title_activity_borrar_nota" >
+        </activity>
+        <activity
+            android:name=".BorrarTodasNotas"
+            android:label="@string/title_activity_borrar_todas_notas" >
+        </activity>
+        <activity
+            android:name=".VerNotas"
+            android:label="@string/title_activity_ver_notas" >
         </activity>
     </application>
 

@@ -11,30 +11,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/ElegirAcción"
+        android:text="@string/tvElegirAcción"
         android:id="@+id/tvElegirAccion"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/IntroducirNotas"
-        android:id="@+id/btIntroducirNotas"
+        android:text="@string/btEditarNotas"
+        android:id="@+id/btEditarNotas"
         android:layout_marginTop="45dp"
         android:layout_below="@+id/tvElegirAccion"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/HacerMedia"
+        android:text="@string/btHacerMedia"
         android:id="@+id/btHacerMedia"
-        android:layout_below="@+id/btIntroducirNotas"
+        android:layout_below="@+id/btEditarNotas"
         android:layout_marginTop="40dp"
-        android:layout_alignLeft="@+id/btIntroducirNotas"
-        android:layout_alignStart="@+id/btIntroducirNotas"
-        android:layout_alignRight="@+id/btIntroducirNotas"
-        android:layout_alignEnd="@+id/btIntroducirNotas" />
+        android:layout_alignLeft="@+id/btEditarNotas"
+        android:layout_alignStart="@+id/btEditarNotas"
+        android:layout_alignRight="@+id/btEditarNotas"
+        android:layout_alignEnd="@+id/btEditarNotas" />
 
 </RelativeLayout>
