@@ -33,22 +33,4 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="39dp" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btBorrarTodasNotas"
-        android:id="@+id/btBorrarTodasNotas"
-        android:layout_below="@+id/btBorrarNota"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btVerNotas"
-        android:id="@+id/btVerNotas"
-        android:layout_below="@+id/btBorrarTodasNotas"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="43dp" />
-
 </RelativeLayout>

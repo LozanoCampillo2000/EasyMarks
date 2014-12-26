@@ -28,13 +28,20 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="@string/btVerNotas"
+        android:id="@+id/btVerNotas"
+        android:layout_below="@+id/btEditarNotas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/btHacerMedia"
         android:id="@+id/btHacerMedia"
-        android:layout_below="@+id/btEditarNotas"
-        android:layout_marginTop="40dp"
-        android:layout_alignLeft="@+id/btEditarNotas"
-        android:layout_alignStart="@+id/btEditarNotas"
-        android:layout_alignRight="@+id/btEditarNotas"
-        android:layout_alignEnd="@+id/btEditarNotas" />
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/btVerNotas"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

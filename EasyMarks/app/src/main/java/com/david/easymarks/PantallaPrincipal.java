@@ -13,10 +13,12 @@ public class PantallaPrincipal extends Activity implements View.OnClickListener 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_principal);
 
-        Button btEscribirNota = (Button) findViewById(R.id.btEditarNotas);
+        Button btEditarNotas = (Button) findViewById(R.id.btEditarNotas);
+        Button btVerNotas = (Button) findViewById(R.id.btVerNotas);
         Button btHacerMedia = (Button) findViewById(R.id.btHacerMedia);
 
-        btEscribirNota.setOnClickListener(this);
+        btEditarNotas.setOnClickListener(this);
+        btVerNotas.setOnClickListener(this);
         btHacerMedia.setOnClickListener(this);
     }
 
@@ -29,6 +31,10 @@ public class PantallaPrincipal extends Activity implements View.OnClickListener 
             case R.id.btHacerMedia:
                 Intent hacer_media = new Intent(PantallaPrincipal.this, HacerMedia.class);
                 PantallaPrincipal.this.startActivity(hacer_media);
+                break;
+            case R.id.btVerNotas:
+                Intent ver_notas = new Intent(PantallaPrincipal.this, VerNotas.class);
+                PantallaPrincipal.this.startActivity(ver_notas);
                 break;
         }
     }

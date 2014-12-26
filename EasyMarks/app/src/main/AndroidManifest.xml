@@ -9,17 +9,12 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Material" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name=".PantallaPrincipal"
             android:label="@string/title_activity_pantalla_principal" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".EditarNotas"
@@ -36,10 +31,6 @@
         <activity
             android:name=".BorrarNota"
             android:label="@string/title_activity_borrar_nota" >
-        </activity>
-        <activity
-            android:name=".BorrarTodasNotas"
-            android:label="@string/title_activity_borrar_todas_notas" >
         </activity>
         <activity
             android:name=".VerNotas"
