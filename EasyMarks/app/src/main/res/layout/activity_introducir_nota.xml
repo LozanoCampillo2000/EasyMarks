@@ -70,9 +70,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btIntroducirNota"
-        android:id="@+id/button"
+        android:id="@+id/btIntroducirNotaAceptar"
         android:layout_below="@+id/etFecha"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="70dp" />
 
 </RelativeLayout>

@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Easy Marks</string>
-    <string name="title_activity_pantalla_principal">Pantalla Pricipal</string>
+    <string name="title_activity_pantalla_principal">Easy Marks</string>
     <string name="title_activity_editar_notas">Editar Notas</string>
     <string name="title_activity_hacer_media">Hacer Media</string>
     <string name="title_activity_introducir_nota">Introducir Nota</string>
